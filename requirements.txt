@@ -44,3 +44,5 @@ tensorflow
 tensorflow-estimator==2.11.0
 tensorflow-intel
 tensorflow-io-gcs-filesystem
+gunicorn
+psycopg2
