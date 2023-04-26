@@ -11,7 +11,7 @@ from keras.preprocessing import image, sequence
 import cv2
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tqdm import tqdm
-import argparse
+
 
 from keras.applications import ResNet50
 resnet= ResNet50(include_top=False,weights='imagenet',input_shape=(224,224,3),pooling='avg')
