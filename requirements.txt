@@ -33,6 +33,7 @@ numpy
 oauthlib
 pep8
 Pillow
+protobuf==3.9.2
 requests 
 requests-oauthlib
 SQLAlchemy
@@ -40,6 +41,6 @@ tensorboard
 tensorboard-data-server
 tensorboard-plugin-wit
 tensorflow
-tensorflow-estimator
+tensorflow-estimator==2.11.0
 tensorflow-intel
 tensorflow-io-gcs-filesystem
