@@ -47,3 +47,5 @@ tensorflow-intel
 tensorflow-io-gcs-filesystem
 gunicorn
 psycopg2
+opencv-python
+tqdm
