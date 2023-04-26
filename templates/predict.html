@@ -1,0 +1,39 @@
+<html>
+    <head>
+    <title>Image Captioner</title>
+    <style>
+        .container {
+          
+          padding-top: 5%;
+          text-align: center;
+            align-items: center;
+            
+          }
+
+          .box {
+            
+            display: inline-block;
+            width: 50%;
+            
+            
+            margin: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-bottom: 25px;
+            border-radius: 5px;
+          }
+    </style>
+    </head>
+   
+    <div class="container">
+        <h1>Generated Caption</h1>
+    <div class="box">
+    <body>
+        <img src="{{url_for('static',filename='file.jpg')}}" alt="" class="res">
+        <br>
+        <br>
+         {{final}}
+    </body>
+</div>
+</div>
+</html>
