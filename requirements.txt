@@ -33,6 +33,7 @@ numpy
 oauthlib
 pep8
 Pillow
+opencv-python
 protobuf==3.9.2
 requests 
 requests-oauthlib
